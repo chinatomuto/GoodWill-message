@@ -14,6 +14,9 @@
 		CE6CC4A627E53517009C75A8 /* GoodWill_Message.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6CC4A427E53517009C75A8 /* GoodWill_Message.xcdatamodeld */; };
 		CE6CC4A827E53529009C75A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6CC4A727E53529009C75A8 /* Assets.xcassets */; };
 		CE6CC4AB27E53529009C75A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6CC4A927E53529009C75A8 /* LaunchScreen.storyboard */; };
+		CEF0B4D927EB3D4300DC3E61 /* MSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B4D827EB3D4300DC3E61 /* MSG.swift */; };
+		CEF0B4DB27EB3DAE00DC3E61 /* CalculatorMSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B4DA27EB3DAE00DC3E61 /* CalculatorMSG.swift */; };
+		CEF0B4DD27EB497300DC3E61 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B4DC27EB497300DC3E61 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CE6CC4A727E53529009C75A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6CC4AA27E53529009C75A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6CC4AC27E53529009C75A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0B4D827EB3D4300DC3E61 /* MSG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSG.swift; sourceTree = "<group>"; };
+		CEF0B4DA27EB3DAE00DC3E61 /* CalculatorMSG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMSG.swift; sourceTree = "<group>"; };
+		CEF0B4DC27EB497300DC3E61 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,41 @@
 			children = (
 				CE6CC49B27E53517009C75A8 /* AppDelegate.swift */,
 				CE6CC49D27E53517009C75A8 /* SceneDelegate.swift */,
-				CE6CC49F27E53517009C75A8 /* ViewController.swift */,
-				CE6CC4A127E53517009C75A8 /* Main.storyboard */,
+				CEF0B4D727EB3D1F00DC3E61 /* Models */,
+				CEF0B4D527EB3CD600DC3E61 /* Controllers */,
+				CEF0B4D627EB3D0400DC3E61 /* Views */,
 				CE6CC4A727E53529009C75A8 /* Assets.xcassets */,
 				CE6CC4A927E53529009C75A8 /* LaunchScreen.storyboard */,
 				CE6CC4AC27E53529009C75A8 /* Info.plist */,
 				CE6CC4A427E53517009C75A8 /* GoodWill_Message.xcdatamodeld */,
 			);
 			path = "GoodWill Message";
+			sourceTree = "<group>";
+		};
+		CEF0B4D527EB3CD600DC3E61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CC49F27E53517009C75A8 /* ViewController.swift */,
+				CEF0B4DC27EB497300DC3E61 /* MessageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEF0B4D627EB3D0400DC3E61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CC4A127E53517009C75A8 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF0B4D727EB3D1F00DC3E61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0B4D827EB3D4300DC3E61 /* MSG.swift */,
+				CEF0B4DA27EB3DAE00DC3E61 /* CalculatorMSG.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF0B4D927EB3D4300DC3E61 /* MSG.swift in Sources */,
 				CE6CC4A027E53517009C75A8 /* ViewController.swift in Sources */,
 				CE6CC49C27E53517009C75A8 /* AppDelegate.swift in Sources */,
 				CE6CC4A627E53517009C75A8 /* GoodWill_Message.xcdatamodeld in Sources */,
 				CE6CC49E27E53517009C75A8 /* SceneDelegate.swift in Sources */,
+				CEF0B4DB27EB3DAE00DC3E61 /* CalculatorMSG.swift in Sources */,
+				CEF0B4DD27EB497300DC3E61 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
